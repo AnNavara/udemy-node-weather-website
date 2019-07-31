@@ -387,6 +387,11 @@ h1 {
   font-size: 64px;
 }
 
+p {
+  margin: 0;
+  margin-bottom: 0.6em;
+}
+
 header a {
   display: inline-block;
   margin-top: 8px;
@@ -400,6 +405,7 @@ header a:hover {
 }
 
 .portrait {
+  margin-top: 16px;
   width: 250px;
 }
 
@@ -422,4 +428,9 @@ button {
   border-radius: 2px;
   cursor: pointer;
   outline: transparent;
+  transition: background-color 0.15s ease-out;
+}
+
+button:hover {
+  background-color: #333333;
 }
