@@ -15,7 +15,7 @@ const forecast = (long, lat, callback) => {
       const rainChance = body.currently.precipProbability;
       const dailySummary = body.daily.data[0].summary;
       const tommorowSummary = body.daily.data[1].summary;
-      callback(undefined, `${dailySummary} В данный момент ${temp} градусов. Максимальная температура в течении дня ${tempHigh}, минимальная ${tempLow}. Шанс осадков ${rainChance}%. Завтра ${tommorowSummary}`);
+      callback(undefined, `${dailySummary} В данный момент ${temp} градусов. Максимальная температура ${tempHigh}, минимальная ${tempLow}. Шанс осадков ${rainChance}%. Завтра ${tommorowSummary}`);
     }
   })
 }

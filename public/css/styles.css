@@ -390,6 +390,7 @@ h1 {
 p {
   margin: 0;
   margin-bottom: 0.6em;
+  line-height: 1.2;
 }
 
 header a {
